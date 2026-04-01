@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabesalho {
+    
+background-color: rgb(189, 66, 66);
+color: aliceblue;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.menu {
+
+color: rgb(219, 48, 26);
+text-decoration: none;
+margin-left: 15px;
+
+}
+.menu a:hover {
+    color: red;
+}
+.navegação {
+    background-color: red;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.navegação ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegação li {
+
+}
+
+.seção {
+background-color: rgb(30, 79, 185);
+display: inline-block;
+width: 70%;
+padding: 10px;
+}
+
+.seção p {
+    background-color: aqua;
+}
+
+.conteudo {
+    display: flex;
+    height: 200px;
+}
+
+.Rodapé {
+background-color: rgb(61, 207, 56);
+}
