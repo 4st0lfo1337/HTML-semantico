@@ -2,65 +2,89 @@
     margin: 0;
     padding: 0;
 }
-
-.grupo {
-    display: flex;
-    flex-direction: column;
+.grupo{
 }
 
-.cabesalho {
-    
-background-color: rgb(189, 66, 66);
-color: aliceblue;
+.cabeca{
+background-color: rgb(0, 155, 155);
+color: rgb(255, 255, 255);
 padding: 10px;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 
-
-}
-.menu {
-
-color: rgb(219, 48, 26);
-text-decoration: none;
-margin-left: 15px;
-
-}
-.menu a:hover {
-    color: red;
-}
-.navegação {
-    background-color: red;
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
 }
 
-.navegação ul {
-    list-style: none;
-    padding: 0;
+.menu a {
+        color: aliceblue;
+        text-decoration: none;
+        align-items: center;
 }
 
-.navegação li {
-
+.menu a:hover{
+        color: rgb(14, 82, 82);
 }
 
-.seção {
-background-color: rgb(30, 79, 185);
+.navegacao{
+background-color: rgb(190, 181, 44);
+display: inline-block;
+width: 30%;
+padding: 10px;
+}
+
+.secao{
+background-color: rgb(180, 64, 60);
 display: inline-block;
 width: 70%;
 padding: 10px;
 }
 
-.seção p {
+.secao p{
     background-color: aqua;
 }
 
-.conteudo {
+.conteudo{
     display: flex;
     height: 200px;
+    
 }
 
-.Rodapé {
-background-color: rgb(61, 207, 56);
+.navegacao li{
+    margin-bottom: 10px;
+}
+
+.paragrafo p {
+    margin-bottom: 10px;
+}
+
+
+.rodape{
+background-color: rgb(124, 29, 29);
+height: 100px;
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.redes {
+    display: flex;
+    
+    align-items: center;
+}
+
+.redes img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.redes a{
+    display: flex;
+    text-decoration-style: none;
+    align-items: center;
+    gap: 5px;
+}
+.redes a:hover{
+    color: aliceblue;
+    opacity: 0.7;
 }
