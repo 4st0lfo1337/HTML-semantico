@@ -1,45 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML semantico</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    
     <div class="grupo">
-        <header class="cabesalho">
-            <h1>Site Semântico</h1>
+        <header class="cabeca">
+            <h1>Site Semâtico</h1>
             <nav class="menu">
                 <a href="#">Inicio</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
+                <a href="#">Meio</a>
+                <a href="#">Final</a>
+                
+                
             </nav>
         </header>
         <div class="conteudo">
-            <nav class="navegação">
+            <nav class="navegacao">
                 <h2>Menu Lateral</h2>
                 <ul>
+                <ul>
                     <li>Perfil</li>
-                    <li>Configuração</li>
+                    <li>Configurações</li>
                     <li>Ajuda</li>
                 </ul>
             </nav>
-            <section class="seção">
-                <h3>Painel Principal</h3>
-                <p>Nome Wilson Neto</p>
-                <p>Curso: Desenvolvimento Web Front-End</p>
-                <p>Status:Ativo</p>
-            </section>   
-        </div>
-        <footer class="Rodapé">
-            <p>Rodapé</p>
-            <p>&copy;</p>
-        </footer>
-    </div>
-</body>
 
+            <section class="secao">
+                <h3>Painel Principal</h3>
+                <div class="paragrafo">
+                <p>Nome: Christian</p>
+                <p>Curso: Desenvolvimento web</p>
+                <p>Status: Ativo</p>
+                <input type="text" name="inputNome" id="">
+                <button onclick="alterarNome()"Alternar></button>
+                      </section>
+                    <hr>
+                </div>
+        </div>
+        <footer class="rodape">
+            
+            <p>&copy; Desenvolvido por <strong>Min</strong></p>
+            <div class="redes">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" 
+                    alt="Intagram">Intagram</a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" 
+                    alt="Github">Github</a>
+            </div>
+        </footer>
+
+    </div>
+
+ <script src="script.js"></script>
+
+</body>
 </html>
