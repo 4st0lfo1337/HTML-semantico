@@ -26,7 +26,7 @@ align-items: center;
 }
 
 .navegacao{
-background-color: rgb(190, 181, 44);
+background-color: rgb(218, 207, 62);
 display: inline-block;
 width: 30%;
 padding: 10px;
@@ -40,7 +40,7 @@ padding: 10px;
 }
 
 .secao p{
-    background-color: aqua;
+    background-color: rgb(151, 224, 224);
 }
 
 .conteudo{
