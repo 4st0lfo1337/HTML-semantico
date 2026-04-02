@@ -5,7 +5,7 @@ function alterarNome() {
     if (trocarNome === '') {
         alert('Digite um nome!')
     } else {
-        document.getElementById('nomeUsuario').
+        document.getElementById("nomeUsuario").
         innerHTML = trocarNome;
     }
 }
