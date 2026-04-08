@@ -9,3 +9,27 @@ function alterarNome() {
         innerHTML = trocarNome;
     }
 }
+
+function alterarCurso() {
+    let trocarCurso = document.getElementById
+    ('inputCurso').value;
+
+    if (trocarCurso === '') {
+        alert('Digite um Curso!')
+    } else {
+        document.getElementById("NomeCurso").
+        innerHTML = trocarCurso;
+    }
+}
+
+function alterarStatus() {
+    let trocarStatus = document.getElementById
+    ('inputStatus').value;
+
+    if (trocarStatus === '') {
+        alert('Digite um Status!')
+    } else {
+        document.getElementById("Status").
+        innerHTML = trocarStatus;
+    }
+}
