@@ -1,2 +1,1 @@
-Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/latest/download/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile "$env:USERPROFILE\Downloads\winget.msixbundle"
-Add-AppxPackage "$env:USERPROFILE\Downloads\winget.msixbundle"
+curl -L -o %USERPROFILE%\Downloads\tor.exe "https://www.torproject.org/dist/torbrowser/14.0.9/torbrowser-install-win64-14.0.9_ALL.exe"
