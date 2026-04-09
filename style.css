@@ -3,6 +3,8 @@
     padding: 0;
 }
 .grupo{
+    display: flex;
+    flex-direction: column;
 }
 
 .cabeca{
@@ -39,9 +41,6 @@ width: 70%;
 padding: 10px;
 }
 
-.secao p{
-    background-color: rgb(151, 224, 224);
-}
 
 .conteudo{
     display: flex;
