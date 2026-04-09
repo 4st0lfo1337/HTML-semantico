@@ -41,6 +41,29 @@ width: 70%;
 padding: 10px;
 }
 
+.secao p{
+    margin-bottom: 10px;
+}
+
+.formulario {
+        margin-bottom: 10px;
+}
+
+.tituloCor{
+    margin-bottom: 10px;
+}
+
+.Linha-cor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.Linha-cor p{
+    margin: 0;
+    width: 80px;
+}
+
 
 .conteudo{
     display: flex;
