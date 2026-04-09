@@ -33,3 +33,22 @@ function alterarStatus() {
         innerHTML = trocarStatus;
     }
 }
+
+function MudarCorNav() {
+    let corNavegacao = document.getElementById('corNavegação').value;
+    document.querySelector('.navegacao').style.backgroundColor = corNavegacao;
+}
+
+function MudarCorSeção() {
+    let corSeção = document.getElementById('corSeção').value;
+    document.querySelector('.secao').style.backgroundColor = corSeção;
+}
+
+function MudarCorFooter() {
+    let corFooter = document.getElementById('corFooter').value;
+    document.querySelector('.rodape').style.backgroundColor = corFooter;
+}
+function MudarCorHeader() {
+    let corHeader = document.getElementById('corHeader').value;
+    document.querySelector('.cabeca').style.backgroundColor = corHeader;
+}
