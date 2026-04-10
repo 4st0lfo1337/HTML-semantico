@@ -1,36 +1,30 @@
 function alterarNome() {
-    let trocarNome = document.getElementById
-    ('inputNome').value;
+    let trocarNome = document.getElementById('inputNome').value;
 
     if (trocarNome === '') {
-        alert('Digite um nome!')
+        alert('Digite um nome!');
     } else {
-        document.getElementById("nomeUsuario").
-        innerHTML = trocarNome;
+        document.getElementById("nomeUsuario").innerHTML = trocarNome;
     }
 }
 
 function alterarCurso() {
-    let trocarCurso = document.getElementById
-    ('inputCurso').value;
+    let trocarCurso = document.getElementById('inputCurso').value;
 
     if (trocarCurso === '') {
-        alert('Digite um Curso!')
+        alert('Digite um Curso!');
     } else {
-        document.getElementById("NomeCurso").
-        innerHTML = trocarCurso;
+        document.getElementById("NomeCurso").innerHTML = trocarCurso;
     }
 }
 
 function alterarStatus() {
-    let trocarStatus = document.getElementById
-    ('inputStatus').value;
+    let trocarStatus = document.getElementById('inputStatus').value;
 
     if (trocarStatus === '') {
-        alert('Digite um Status!')
+        alert('Digite um Status!');
     } else {
-        document.getElementById("Status").
-        innerHTML = trocarStatus;
+        document.getElementById("Status").innerHTML = trocarStatus;
     }
 }
 
@@ -48,7 +42,9 @@ function MudarCorFooter() {
     let corFooter = document.getElementById('corFooter').value;
     document.querySelector('.rodape').style.backgroundColor = corFooter;
 }
+
 function MudarCorHeader() {
     let corHeader = document.getElementById('corHeader').value;
     document.querySelector('.cabeca').style.backgroundColor = corHeader;
 }
+
